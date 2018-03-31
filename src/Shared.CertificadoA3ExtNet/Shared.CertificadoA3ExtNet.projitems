@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>59c43673-f4a5-49e7-8a3f-00fd42e7e742</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>CertificadoA3ExtNet</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)SetSenhaA3Ext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ValidadeExt.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)VerificaA3Ext.cs" />
+  </ItemGroup>
+</Project>
